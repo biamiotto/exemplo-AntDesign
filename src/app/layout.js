@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="pt-BR">
-            <body className="min-h-screen bg-linear-to-bl from to-pink-200 to bg-pink-300 antialiased">
+            <body className="min-h-screen bg-linear-to-bl from to-purple-400 to bg-pink-300 antialiased">
                 <AntdRegistry>{children}</AntdRegistry>
                 <Toaster />
             </body>
